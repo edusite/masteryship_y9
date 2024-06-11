@@ -1,0 +1,165 @@
+/* index.html  */
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* navbar and banner */
+.bannernav{
+    background-image: url(https://wallpaperaccess.com/full/806427.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+nav{
+    text-decoration-color: cyan;
+    box-shadow: 5px solid aliceblue;
+    font-size: 20px;
+}
+#banner{
+    height: 100%;
+}
+#banner-col{
+    height: 100%;
+    margin-bottom: 20vh;
+}
+@media all and (max-width:600px){
+  #banner-img{
+      height: 43vh;
+  }
+
+}
+
+#banner-text{
+  font-size: 70px;
+  margin-top: 120px;
+  letter-spacing: 3px;
+  font-family: 'Abril Fatface', cursive;
+  background: linear-gradient(to right, rgba(118,240,255,100), rgba(53,141,247,100));
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#logo{
+    height: 180px;
+    filter: drop-shadow(1px 1px lightblue);
+}
+
+/* FAQ */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+.faq-body{
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+.faq-header{
+  background: linear-gradient(to right, #03a5b9, #0278ec);
+  color: white;
+  font-size: 42px;
+  padding: 24px;
+}
+
+.faq-content {
+  margin: 0 auto;
+}
+
+.faq-question {
+  background: #02021c;
+  padding: 20px 0;
+  border-bottom: 1px #ccc;
+}
+
+.panel-title {
+  color: white;
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+
+.panel-content {
+  color: white;
+  font-size: 20px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.panel {
+  display: none;
+}
+
+/* footer */
+.footer{
+  background: black;
+}
+#register h1{
+    color: #c5ecfd;
+}
+#register input{
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+}
+.register-btn{
+    width: 20vh;
+    background: deepskyblue;
+    height: 6vh;
+    border-radius: 5px;
+}
+#copyright{
+    text-decoration: none;
+}
+#email, #password{
+    width: 82%;
+}
