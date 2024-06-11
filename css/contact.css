@@ -1,0 +1,138 @@
+body{
+    overflow-x: hidden;
+}
+/* navbar and banner */
+.contact-nav{
+    background-image: url(https://wallpaperaccess.com/full/806427.jpg);
+    background-repeat: no-repeat;
+}
+nav{
+    text-decoration-color: cyan;
+    box-shadow: 5px solid aliceblue;
+    font-size: 20px;
+}
+
+#logo{
+    height: 180px;
+    filter: drop-shadow(1px 1px lightblue);
+}
+/* contact */
+.contact-info {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-info-icon {
+    margin-bottom: 15px;
+}
+.contact-info-item {
+    background: #071c34;
+    padding: 30px 0px;
+}
+
+/* message-box */
+#message-box{
+    background: #071c34; 
+}
+.contact{
+    width: 100%;
+    max-width: 550px;
+    background: rgba(6, 6, 6, 0.8);
+    padding: 30px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+  
+.contact .contact-title h1{
+    color: #c5ecfd;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form{
+    display: flex;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-box, .message{
+    width: 48%;
+}
+
+.input-box .input, .message textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+.message textarea{
+    height: 212px;
+}
+
+#contact-ph-email{
+    text-decoration: none;
+    filter: blur(1.5px);
+}
+
+.contact-btn{
+    background: rgb(76, 160, 255);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.contact-img{
+    filter: drop-shadow(20px 20px rgb(138, 226, 255));
+    height: 76%;
+}
+
+@media all and (max-width: 991px){
+    #col-image{
+        margin-left: 65px;
+    }
+}
+@media all and (max-width: 600px){
+    .contact-img{
+        height: 50%;
+    }
+}
+
+/* footer */
+.footer{
+    background: black;
+}
+#register h1{
+    color: #c5ecfd;
+}
+#register input{
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    color: #c5ecfd;
+}
+.register-btn{
+    width: 20vh;
+    background: deepskyblue;
+    height: 6vh;
+    border-radius: 5px;
+}
+#copyright{
+    text-decoration: none;
+}
+#email, #password{
+    width: 82%;
+}

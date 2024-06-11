@@ -1,0 +1,91 @@
+body{
+    overflow-x: hidden;
+}
+/* navbar and banner */
+.bannernav{
+    background-image: url(https://wallpaperaccess.com/full/806427.jpg);
+    background-repeat: no-repeat;
+}
+nav{
+    text-decoration-color: cyan;
+    box-shadow: 5px solid aliceblue;
+    font-size: 20px;
+}
+#logo{
+    height: 180px;
+    filter: drop-shadow(1px 1px lightblue);
+}
+/* category card */
+.category-card{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: auto;
+    margin-top: 5px;
+}
+.category-img{
+    width: 300px;
+	height: 300px;
+}
+.flip-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    display: flex;
+}
+.category-card:hover .flip-inner{
+    transform: rotateY(180deg);
+}
+
+.flip-front, .flip-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-front{
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card{
+    background-color: darkslateblue;
+    color: white;
+    transform: rotateY(180deg);
+    padding-top: 10%; 
+    padding: 8%;   
+    border: 3px solid lightblue;
+}
+.category-p{
+    padding-top: 15%;
+}
+/* footer */
+.footer{
+    background: black;
+}
+#register h1{
+    color: #c5ecfd;
+}
+#register input{
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    color: #c5ecfd;
+}
+.register-btn{
+    width: 20vh;
+    background: deepskyblue;
+    height: 6vh;
+    border-radius: 5px;
+}
+#copyright{
+    text-decoration: none;
+}
+#email, #password{
+    width: 82%;
+}

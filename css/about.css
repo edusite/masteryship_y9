@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+}
+/* navbar and banner */
+.bannernav{
+    background-image: url(https://wallpaperaccess.com/full/806427.jpg);
+    background-repeat: no-repeat;
+}
+nav{
+    text-decoration-color: cyan;
+    box-shadow: 5px solid aliceblue;
+    font-size: 20px;
+}
+
+#logo{
+    height: 180px;
+	width: 180px;
+	filter: drop-shadow(1px 1px lightblue);
+}
+
+/* about us card */
+.card{
+	height: 330px;
+	margin: 50px;
+	box-shadow: 5px 5px 20px black;
+	overflow: hidden;
+    filter: drop-shadow(10px 10px rgb(0, 229, 255));
+}
+
+img{
+	height: 280px;
+	width: 100%;
+	border-radius: 3px;
+	transition: .5s;
+}
+
+.intro{
+	height: 60px;
+	width: 350px;
+	padding: 6px;
+	box-sizing: border-box;
+	bottom: 9px;
+    margin-bottom: 0;
+	background: rgb(27, 27, 27, .5);
+	color: white;
+	transition: .5s;
+}
+
+.h1{
+	margin: 10px;
+	font-size: 40px;
+	color: white;
+}
+
+.p{
+	font-size: 20px;
+	margin: 20px;
+	visibility: hidden;
+	opacity: 0;
+    /* z-index: 2; */
+}
+
+span{
+	font-weight: bold;
+}
+
+.card:hover{
+	cursor: pointer;
+}
+
+.card:hover .intro{
+	height: 30%;
+    position: absolute;
+	bottom: 15px;
+	background: black;
+}
+
+.card:hover .p{
+	opacity: 1;
+	visibility: visible;
+}
+
+/* footer */
+.footer{
+    background: black;
+}
+#register h1{
+    color: #c5ecfd;
+}
+#register input{
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+}
+.register-btn{
+    width: 20vh;
+    background: deepskyblue;
+    height: 6vh;
+    border-radius: 5px;
+}
+#copyright{
+    text-decoration: none;
+}
+#email, #password{
+    width: 94.5%;
+}
+/*  */
+@media all and (max-width:1276px){
+.name{
+    width: 99%;
+    }
+}

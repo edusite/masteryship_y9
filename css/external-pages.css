@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+    background-image: url(https://picjumbo.com/wp-content/uploads/calm-dark-blue-sea-background-free-photo.jpg);
+}
+
+#logo{
+    height: 180px;
+    filter: drop-shadow(1px 1px lightblue);
+}
+/* category pages */
+iframe{
+    height: 190px;
+}
+
+/* search bar page */
+#search-container{
+    border-radius: 100px;
+    height: 100%;
+    border: 8px solid darkblue;
+}
+
+#search-items{
+    background: transparent;
+    border: 1px solid white;
+}
+
+.icon{
+    font-size: 80px;
+    color: aqua;
+}
+
+.search-text{
+    color: white;
+}
+
+#search-items:hover{
+    opacity: 0.6;
+}
